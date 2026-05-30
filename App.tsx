@@ -32,7 +32,7 @@ const App = () => {
             }}
           >
             <NavigationContainer ref={navigationRef}>
-              <StatusBar barStyle="dark-content" backgroundColor={'#fff'} />
+              {/* <StatusBar barStyle="dark-content" backgroundColor={'#fff'} /> */}
               <StackNavigation />
             </NavigationContainer>
           </ToastProvider>
